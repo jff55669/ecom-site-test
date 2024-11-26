@@ -46,6 +46,8 @@ INSTALLED_APPS = [
     'drf_yasg'
 ]
 
+AUTH_USER_MODEL = 'API.User'
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
